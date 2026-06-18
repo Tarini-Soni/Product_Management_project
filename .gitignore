@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.env
+
+# Django
+db.sqlite3
+*.log
+
+# Migrations (optional if you want clean repo)
+**/migrations/__pycache__/
+**/migrations/*.pyc
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# React frontend (if inside same repo)
+frontend/node_modules/
+frontend/build/
